@@ -28,7 +28,11 @@
       </li>
 
       <li class="pull-right">
-        <a href="#aboutme">about</a>
+        <a href="#photos">photos</a>
+        <li class="pull-right">
+          <a href="#aboutme">about</a>
+
+      </li>
       </li>
     </ul>
   </div>
@@ -43,25 +47,69 @@
         <img src="image/bot1600.png" class="rounded" alt="robot" width="200" height="200">
       </div>
 
-      <p>&lt;i’m kat, a photographer learning to become a web developer./&gt;</p>
     </div>
   </div>
-  <div class="container-fluid text-center">
-    <div class=" container-fluid">
-      <div class="jumbotron page-header text-center" id="aboutme">
+  <div class="container text-center">
+    <div class=" col-md-12">
+      <div class="page-header text-center" id="aboutme">
         <img src="image/kat-camera.jpg" class="img-circle" alt="Kat novoa" width="304">
-        <h2>&lt;me/&gt;</h2>
-        <p>i'm a code newbie.<br> my goal for the rest of this year is to stay away <br>from tutorials and start doing real projects <br>and gain a job as a web developer. </p>
+        <h2>&lt;kat/&gt;</h2>
+
+        <p>&lt;i’m kat, a photographer learning to become a web developer.i'm a code newbie.<br> my goal for the rest of this year is to stay away <br>from tutorials and start doing real projects <br>and gain a job as a web developer./&gt;</p>
+
+
       </div>
     </div>
   </div>
+  <!--Carousel-images-->
+  <div class="container text-center">
+    <div class="c-wrapper" id="photos">
+
+      <div class="col-md-12">
+        <div id="mycarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#mycarousel" data-slide-to="1"></li>
+            <li data-target="#mycarousel" data-slide-to="2"></li>
+          </ol>
+
+          <div class="carousel-fullscreen carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="image/img_5670.jpg" alt="park gruel">
+              <div class="carousel-caption">
+
+              </div>
+            </div>
+            <div class="item">
+              <img src="image/img_5604.jpg" alt="park">
+            </div>
+            <div class="item">
+              <img src="image/img_8225.jpg" alt="big ben">
+            </div>
+          </div>
+          <!-- Controls -->
+          <a class="left carousel-control" href="#mycarousel" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                </a>
+          <a class="right carousel-control" href="#mycarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                   </a>
+        </div>
+      </div>
+    </div>
+</div>
+
+
 
   <!-- Footer -->
   <footer>
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-12">
-          <div class="btnList text-center">
+          <div class="btnList text-center top-buffer" id="contact">
             <a class="btn btn-default btn-sm" href="https://github.com/katnovoa">
                   <i class="fa fa-github fa-2x" aria-hidden="true"></i>GitHub</a>
             <a class="btn btn-default btn-sm" href="https://www.twitter.com/katnovoa">
@@ -71,7 +119,7 @@
             <a class="btn btn-default btn-sm" href="https://www.facebook.com/cat.novoa">
                   <i class="fa fa-facebook fa-2x" aria-hidden="true"> </i>Facebook</a>
 
-            <p class="copyright text-muted">Copyright &copy; kat novoa 2017</p>
+            <p class="copyright text-muted top-buffer">Copyright &copy; kat novoa 2017</p>
           </div>
         </div>
       </div>
